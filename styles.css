@@ -1,0 +1,102 @@
+/* .nav-container {
+  padding-left: 40px;
+  padding-right: 60px;
+  justify-content: end;
+} */
+.btn-custom {
+      --bs-btn-bg: #588cdb;
+      --bs-btn-color: white;
+      font-weight: 700;
+      font-size: 1.25rem;
+}
+.hero {
+  display: flex;
+  height: 240px;
+  /* justify-content: flex-end; */
+  background-image: url(./images/landscape-1400x700.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  align-items: center;
+  /* height: 700px; */
+}
+h1, h2, h3 {
+      color: #3850a7;
+}
+.hero-heading {
+  color: #295c3e;
+  margin-top: 60px;
+}
+.about {
+      margin-top: 40px;
+      padding: 20px 40px;
+}
+.container-about {
+      padding: 20px 60px;
+}
+.about-heading {
+      margin-bottom: 1rem;
+}
+.about-image {
+      display: flex;
+      justify-content: center;
+}
+.services {
+      background-color: #e5e9ea;
+}
+.feature-icon {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 0.75rem;
+      background-color: #5d892e;
+  }
+/*  .text-bg-primary {
+      color: #588cdb;
+      background-color: #588cdb;
+  } */
+  .bi {
+      color: white;
+  }
+.projects-h2 {
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 10px;
+}
+.services-h2 {
+      text-align: left;
+      margin-bottom: 30px;
+      margin-top: 10px;
+
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+font-size: 32px
+font-weight: 400
+height: 38.4px
+line-height: 38.4px
+}
+.btn-projects {  
+padding-top: 5px;   
+--bs-btn-bg: 0766AD;
+--bs-btn-color: white;
+font-weight: 400;
+font-size: 1rem;
+      
+} 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+  }
+  .hero {
+      display: flex;
+      height: 540px;
+      /* justify-content: flex-end; */
+      background-image: url(./images/landscape-1400x700.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0;
+      align-items: center;
+      /* height: 700px; */
+    }
+}
